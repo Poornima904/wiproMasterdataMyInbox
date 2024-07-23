@@ -1,0 +1,49 @@
+<mvc:View controllerName="masterdatanamespace.workflowuimodule.controller.App"
+    xmlns:html="http://www.w3.org/1999/xhtml"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns:l="sap.ui.layout"
+    xmlns:f="sap.ui.layout.form"
+    xmlns:core="sap.ui.core"
+    xmlns:form="sap.ui.layout.form"
+    xmlns:smartForm="sap.ui.comp.smartform"
+    xmlns:smartField="sap.ui.comp.smartfield"
+    xmlns="sap.m">
+    <App id="app">
+        <Page id = "scroll">
+                <form:SimpleForm id="request-information-form" editable="false" layout="ResponsiveGridLayout" singleContainerFullSize="false">
+                    <form:content>
+                        <f:Form>
+                            <f:layout>
+                                <f:ColumnLayout columnsM="2" columnsL="3" columnsXL="4"/>
+                            </f:layout>
+                            <f:FormContainer>
+
+                                <f:FormElement label="Entity">
+                                    <Text id = 'entity' text=""/>
+                                </f:FormElement>
+
+                                <f:FormElement label="Country">
+                                    <Text id = 'country' text=""/>
+                                </f:FormElement>
+
+                                <f:FormElement label="CompanyName">
+                                    <Text id = 'companyname' text=""/>
+                                </f:FormElement>
+                                <f:FormElement label="ListofDirectors">
+                                    <Text id = 'listofdirectors' text=""/>
+                                </f:FormElement>
+                                <f:FormElement label="Comments">
+                                    <Text id = 'comments' text=""/>
+                                </f:FormElement>
+                                <f:FormElement label="Status">
+                                    <Text id = 'status' text=""/>
+                                </f:FormElement>
+
+                            </f:FormContainer>
+                        </f:Form>
+                    </form:content>
+                </form:SimpleForm>
+        </Page>
+    </App>
+</mvc:View>
+
